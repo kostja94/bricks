@@ -1,13 +1,15 @@
-# Component Skills
+# Bricks
 
-Agent-first guidance for planning, building, adapting, and validating interface components.
+**The component layer for AI agents.**
+
+Bricks gives agents the knowledge and workflow to select, build, adapt, and validate interface components.
 
 This repository does not ship a fixed visual system. The `component-builder` skill reads the target project's stack, design system, interface context, and existing components before it creates or changes code.
 
 ## Install
 
 ```bash
-npx skills add kostja94/component-skills --skill component-builder
+npx skills add kostja94/bricks --skill component-builder
 ```
 
 Until the public repository exists, install from a local checkout with the mechanism supported by your agent.

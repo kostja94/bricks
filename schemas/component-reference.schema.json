@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://component-skills.dev/schemas/component-reference.schema.json",
-  "title": "Component Skills Catalog",
+  "$id": "https://bricks.dev/schemas/component-reference.schema.json",
+  "title": "Bricks Component Catalog",
   "type": "object",
   "required": ["version", "components"],
   "properties": {

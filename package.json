@@ -1,8 +1,8 @@
 {
-  "name": "component-skills",
+  "name": "bricks",
   "version": "0.1.0",
   "private": true,
-  "description": "Agent-first skills and references for building interface components.",
+  "description": "The component layer for AI agents.",
   "scripts": {
     "test": "node scripts/validate.mjs"
   },
