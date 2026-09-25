@@ -1,0 +1,33 @@
+{
+  "$schema": "../schemas/component-reference.schema.json",
+  "version": "0.1.0",
+  "components": [
+    {
+      "id": "footer",
+      "name": "Footer",
+      "kind": "component",
+      "family": "navigation",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/footer.md"
+    },
+    {
+      "id": "hero",
+      "name": "Hero",
+      "kind": "section",
+      "family": "content-entry",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/hero.md"
+    },
+    {
+      "id": "agent-workspace",
+      "name": "Agent Workspace",
+      "kind": "pattern",
+      "family": "workspace",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/agent-workspace.md"
+    }
+  ]
+}

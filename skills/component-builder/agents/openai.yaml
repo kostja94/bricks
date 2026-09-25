@@ -1,0 +1,4 @@
+interface:
+  display_name: Component Builder
+  short_description: Build and adapt interface components in their real project context.
+  default_prompt: Build or improve the requested component while preserving the project's design system, stack, and interaction conventions.

@@ -1,0 +1,10 @@
+{
+  "name": "component-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent-first skills and references for building interface components.",
+  "scripts": {
+    "test": "node scripts/validate.mjs"
+  },
+  "license": "MIT"
+}

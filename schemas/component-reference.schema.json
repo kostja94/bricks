@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://component-skills.dev/schemas/component-reference.schema.json",
+  "title": "Component Skills Catalog",
+  "type": "object",
+  "required": ["version", "components"],
+  "properties": {
+    "version": { "type": "string" },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "kind", "family", "surfaces", "status", "reference"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["primitive", "component", "section", "pattern", "workspace"] },
+          "family": { "type": "string", "minLength": 1 },
+          "surfaces": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "enum": ["web", "mobile", "desktop", "embedded", "internal-tool"] }
+          },
+          "status": { "enum": ["planned", "draft", "available"] },
+          "reference": { "type": "string", "pattern": "\\.md$" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
