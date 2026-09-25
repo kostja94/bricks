@@ -3,26 +3,113 @@
   "$id": "https://bricks.dev/schemas/component-reference.schema.json",
   "title": "Bricks Component Catalog",
   "type": "object",
-  "required": ["version", "components"],
+  "required": [
+    "version",
+    "components"
+  ],
   "properties": {
-    "version": { "type": "string" },
+    "version": {
+      "type": "string"
+    },
     "components": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "kind", "family", "surfaces", "status", "reference"],
+        "required": [
+          "id",
+          "name",
+          "kind",
+          "primary_family",
+          "surfaces",
+          "delivery_unit",
+          "status",
+          "reference"
+        ],
         "properties": {
-          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-          "name": { "type": "string", "minLength": 1 },
-          "kind": { "enum": ["primitive", "component", "section", "pattern", "workspace"] },
-          "family": { "type": "string", "minLength": 1 },
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "component",
+              "section",
+              "pattern",
+              "workspace"
+            ]
+          },
+          "primary_family": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "secondary_families": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            }
+          },
+          "shared_model": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "aliases": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
           "surfaces": {
             "type": "array",
             "minItems": 1,
-            "items": { "enum": ["web", "mobile", "desktop", "embedded", "internal-tool"] }
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "web",
+                "mobile",
+                "desktop",
+                "embedded",
+                "internal-tool"
+              ]
+            }
           },
-          "status": { "enum": ["planned", "draft", "available"] },
-          "reference": { "type": "string", "pattern": "\\.md$" }
+          "page_contexts": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            }
+          },
+          "flow_contexts": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            }
+          },
+          "delivery_unit": {
+            "type": "boolean"
+          },
+          "status": {
+            "enum": [
+              "planned",
+              "draft",
+              "available"
+            ]
+          },
+          "reference": {
+            "type": "string",
+            "pattern": "\\.md$"
+          }
         },
         "additionalProperties": false
       }

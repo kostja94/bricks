@@ -16,6 +16,10 @@ for (const component of catalog.components ?? []) {
   if (ids.has(component.id)) errors.push(`Duplicate component id: ${component.id}`);
   ids.add(component.id);
 
+  if (!["component", "section", "pattern", "workspace"].includes(component.kind)) errors.push(`Invalid kind for ${component.id}: ${component.kind}`);
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(component.primary_family ?? "")) errors.push(`Invalid primary_family for ${component.id}`);
+  if (component.delivery_unit !== true) errors.push(`Catalog entry is not an independent delivery unit: ${component.id}`);
+
   const referencePath = path.resolve(path.dirname(catalogPath), component.reference);
   try {
     if (!(await stat(referencePath)).isFile()) errors.push(`Reference is not a file: ${component.reference}`);

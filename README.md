@@ -51,9 +51,9 @@ The catalog spans small primitives, content structures, conversion elements, and
 | Group | Representative components |
 |-------|---------------------------|
 | Navigation and orientation | Navigation Menu, Footer, Breadcrumb, Sidebar, Table of Contents |
-| Content and explanation | Article Layout, Author Bio, FAQ Section, How-to Section, Tabs and Accordion |
+| Content and explanation | Article Content Layout, Author Bio, FAQ Section, How-to Section, Tabs, Accordion |
 | Conversion and trust | CTA, Newsletter Signup, Comparison Table, Testimonials, Trust Signals |
-| Layout and presentation | Card, Grid, List, Masonry, Carousel, Modal, Top Banner |
+| Layout and presentation | Card, Grid, List, Masonry, Carousel, Modal, Announcement Banner |
 | Agent and tool interfaces | Task Input, Conversation, Chat Panel, Agent Workspace, CMS Editor Workspace |
 
 Browse the machine-readable inventory in [`catalog/components.json`](catalog/components.json). Component IDs remain stable while their references can grow as new contexts and constraints are learned.

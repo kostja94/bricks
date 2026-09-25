@@ -2,7 +2,7 @@
 name: component-builder
 description: Build new interface components and bounded composition patterns inside an existing project. Use for named components, interface blocks, and workspaces. Preserve the target project's design system and stack; for a complete new page with page-level structure and multiple sections, use Pagina page-builder instead. Do not use to audit or reconstruct an existing component, plan a whole product or website, or handle purely editorial copy requests.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Component Builder
@@ -25,7 +25,7 @@ For a page composition, define the page's job and reuse child components from th
 
 ## Load Only Relevant Guidance
 
-Read [references/workflow.md](references/workflow.md) for construction work and [references/quality-gates.md](references/quality-gates.md) before final verification.
+Read [references/workflow.md](references/workflow.md) for construction work. Read [references/foundational-controls.md](references/foundational-controls.md) when the request involves Button, Link, Input, Select, Form, or another foundational control and [references/quality-gates.md](references/quality-gates.md) before final verification.
 
 Read [references/pagina.md](references/pagina.md) when the request may be a complete page rather than a bounded component.
 
@@ -41,7 +41,8 @@ Find the component ID in [../../catalog/components.json](../../catalog/component
 
 ## Boundaries
 
-- One component concept has one maintained reference. Visual variants stay inside that reference.
+- One component concept has one maintained reference. Role, placement, visual variant, and runtime state do not create new catalog entries.
+- Established independent terminology and discovery intent may justify separate entries that share a model, as with Grid, List, and Masonry.
 - A component reference is guidance, not a fixed code template.
 - Bounded composition patterns may coordinate catalog components. Complete page construction belongs to Pagina; whole-site information architecture and product planning remain outside both component construction and this skill.
 - Stop and report the scope mismatch when the named component already exists and the request is primarily an audit, optimization, or reconstruction.
