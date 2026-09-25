@@ -1,6 +1,6 @@
 ---
 name: component-builder
-description: Build new interface components and bounded page compositions inside an existing project. Use for named components, interface blocks, workspaces, and established page patterns such as blog indexes and article layouts. Preserve the target project's design system and stack; do not use to audit or reconstruct an existing component, plan a whole product or website, or handle purely editorial copy requests.
+description: Build new interface components and bounded composition patterns inside an existing project. Use for named components, interface blocks, and workspaces. Preserve the target project's design system and stack; for a complete new page with page-level structure and multiple sections, use Pagina page-builder instead. Do not use to audit or reconstruct an existing component, plan a whole product or website, or handle purely editorial copy requests.
 metadata:
   version: 0.1.0
 ---
@@ -27,6 +27,8 @@ For a page composition, define the page's job and reuse child components from th
 
 Read [references/workflow.md](references/workflow.md) for construction work and [references/quality-gates.md](references/quality-gates.md) before final verification.
 
+Read [references/pagina.md](references/pagina.md) when the request may be a complete page rather than a bounded component.
+
 Find the component ID in [../../catalog/components.json](../../catalog/components.json), then read only its referenced component file. If the requested concept is absent, use the shared workflow, state the inferred canonical name in the result, and do not invent a permanent catalog entry unless the task includes repository maintenance.
 
 ## Build
@@ -41,7 +43,7 @@ Find the component ID in [../../catalog/components.json](../../catalog/component
 
 - One component concept has one maintained reference. Visual variants stay inside that reference.
 - A component reference is guidance, not a fixed code template.
-- Bounded page compositions may coordinate catalog components, but whole-site information architecture and product planning remain outside this skill.
+- Bounded composition patterns may coordinate catalog components. Complete page construction belongs to Pagina; whole-site information architecture and product planning remain outside both component construction and this skill.
 - Stop and report the scope mismatch when the named component already exists and the request is primarily an audit, optimization, or reconstruction.
 - Do not add dependencies without a concrete implementation benefit.
 - Do not claim compliance, performance, or conversion outcomes that were not tested.

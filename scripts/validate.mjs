@@ -35,7 +35,7 @@ for (const entry of await readdir(skillRoot, { withFileTypes: true })) {
     errors.push(`Missing SKILL.md: skills/${entry.name}`);
     continue;
   }
-  if (!source.startsWith("---\n")) errors.push(`Missing YAML frontmatter: skills/${entry.name}/SKILL.md`);
+  if (!source.replaceAll("\r\n", "\n").startsWith("---\n")) errors.push(`Missing YAML frontmatter: skills/${entry.name}/SKILL.md`);
   if (!/^name:\s*[a-z0-9-]+\s*$/m.test(source)) errors.push(`Missing valid name: skills/${entry.name}/SKILL.md`);
   if (!/^description:\s*\S.+$/m.test(source)) errors.push(`Missing description: skills/${entry.name}/SKILL.md`);
 }
