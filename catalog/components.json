@@ -7,7 +7,9 @@
       "name": "Footer",
       "kind": "component",
       "family": "navigation",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/footer.md"
     },
@@ -16,7 +18,9 @@
       "name": "Hero",
       "kind": "section",
       "family": "content-entry",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/hero.md"
     },
@@ -25,7 +29,9 @@
       "name": "Agent Workspace",
       "kind": "pattern",
       "family": "workspace",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/agent-workspace.md"
     },
@@ -34,7 +40,9 @@
       "name": "Task Input",
       "kind": "component",
       "family": "input",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/task-input.md"
     },
@@ -43,7 +51,9 @@
       "name": "Conversation",
       "kind": "pattern",
       "family": "conversation",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/conversation.md"
     },
@@ -52,7 +62,9 @@
       "name": "Chat Panel",
       "kind": "component",
       "family": "conversation",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/chat-panel.md"
     },
@@ -61,7 +73,9 @@
       "name": "Author Bio",
       "kind": "section",
       "family": "content-identity",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/author-bio.md"
     },
@@ -70,9 +84,231 @@
       "name": "FAQ Section",
       "kind": "section",
       "family": "content-structure",
-      "surfaces": ["web"],
+      "surfaces": [
+        "web"
+      ],
       "status": "available",
       "reference": "../skills/component-builder/references/components/faq-section.md"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "logo",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/logo.md",
+      "name": "Logo",
+      "family": "branding"
+    },
+    {
+      "kind": "section",
+      "status": "available",
+      "id": "comparison-table",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/comparison-table.md",
+      "name": "Comparison Table",
+      "family": "data-display"
+    },
+    {
+      "kind": "section",
+      "status": "available",
+      "id": "howto-section",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/howto-section.md",
+      "name": "How-to Section",
+      "family": "content-structure"
+    },
+    {
+      "kind": "pattern",
+      "status": "available",
+      "id": "tabs-accordion",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/tabs-accordion.md",
+      "name": "Tabs and Accordion",
+      "family": "disclosure"
+    },
+    {
+      "kind": "section",
+      "status": "available",
+      "id": "cta",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/cta.md",
+      "name": "Call to Action",
+      "family": "conversion"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "newsletter-signup",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/newsletter-signup.md",
+      "name": "Newsletter Signup",
+      "family": "form"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "modal",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/modal.md",
+      "name": "Modal",
+      "family": "overlay"
+    },
+    {
+      "kind": "section",
+      "status": "available",
+      "id": "testimonials",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/testimonials.md",
+      "name": "Testimonials",
+      "family": "evidence"
+    },
+    {
+      "kind": "section",
+      "status": "available",
+      "id": "trust-signals",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/trust-signals.md",
+      "name": "Trust Signals",
+      "family": "evidence"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "card",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/card.md",
+      "name": "Card",
+      "family": "container"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "carousel",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/carousel.md",
+      "name": "Carousel",
+      "family": "collection"
+    },
+    {
+      "kind": "pattern",
+      "status": "available",
+      "id": "grid",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/grid.md",
+      "name": "Grid",
+      "family": "layout"
+    },
+    {
+      "kind": "pattern",
+      "status": "available",
+      "id": "list",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/list.md",
+      "name": "List",
+      "family": "layout"
+    },
+    {
+      "kind": "pattern",
+      "status": "available",
+      "id": "masonry",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/masonry.md",
+      "name": "Masonry",
+      "family": "layout"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "breadcrumb",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/breadcrumb.md",
+      "name": "Breadcrumb",
+      "family": "navigation"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "navigation-menu",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/navigation-menu.md",
+      "name": "Navigation Menu",
+      "family": "navigation"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "sidebar",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/sidebar.md",
+      "name": "Sidebar",
+      "family": "navigation"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "table-of-contents",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/table-of-contents.md",
+      "name": "Table of Contents",
+      "family": "navigation"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "social-share",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/social-share.md",
+      "name": "Social Share",
+      "family": "utility"
+    },
+    {
+      "kind": "component",
+      "status": "available",
+      "id": "top-banner",
+      "surfaces": [
+        "web"
+      ],
+      "reference": "../skills/component-builder/references/components/top-banner.md",
+      "name": "Top Banner",
+      "family": "announcement"
     }
   ]
 }
