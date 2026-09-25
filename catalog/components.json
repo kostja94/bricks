@@ -309,6 +309,41 @@
       "reference": "../skills/component-builder/references/components/top-banner.md",
       "name": "Top Banner",
       "family": "announcement"
+    },
+    {
+      "id": "blog-index",
+      "name": "Blog Index",
+      "kind": "pattern",
+      "family": "publishing",
+      "surfaces": [
+        "web"
+      ],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/blog-index.md"
+    },
+    {
+      "id": "article-layout",
+      "name": "Article Layout",
+      "kind": "pattern",
+      "family": "publishing",
+      "surfaces": [
+        "web"
+      ],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/article-layout.md"
+    },
+    {
+      "id": "cms-editor-workspace",
+      "name": "CMS Editor Workspace",
+      "kind": "workspace",
+      "family": "publishing",
+      "surfaces": [
+        "web",
+        "desktop",
+        "internal-tool"
+      ],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/cms-editor-workspace.md"
     }
   ]
 }
