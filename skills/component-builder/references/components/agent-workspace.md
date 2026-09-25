@@ -33,6 +33,8 @@ The layout may use panels, tabs, drawers, or separate views. Region presence and
 
 Use the target project's established agent runtime and event model. Complex streaming, tool calling, editors, terminals, and sandboxes should rely on maintained libraries or platform capabilities rather than superficial mock behavior.
 
+A useful event model distinguishes assistant content, tool requests, tool results, approvals, errors, and artifact updates. Treat this as a conceptual contract rather than a required TypeScript shape. Persist only the state the product must recover, and never infer external execution success from assistant prose.
+
 ## Verify
 
 Exercise at least one successful tool path, one failure path, cancellation or interruption where supported, approval behavior for consequential actions, artifact refresh, keyboard operation, and narrow-screen navigation.

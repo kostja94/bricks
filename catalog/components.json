@@ -28,6 +28,51 @@
       "surfaces": ["web"],
       "status": "available",
       "reference": "../skills/component-builder/references/components/agent-workspace.md"
+    },
+    {
+      "id": "task-input",
+      "name": "Task Input",
+      "kind": "component",
+      "family": "input",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/task-input.md"
+    },
+    {
+      "id": "conversation",
+      "name": "Conversation",
+      "kind": "pattern",
+      "family": "conversation",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/conversation.md"
+    },
+    {
+      "id": "chat-panel",
+      "name": "Chat Panel",
+      "kind": "component",
+      "family": "conversation",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/chat-panel.md"
+    },
+    {
+      "id": "author-bio",
+      "name": "Author Bio",
+      "kind": "section",
+      "family": "content-identity",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/author-bio.md"
+    },
+    {
+      "id": "faq-section",
+      "name": "FAQ Section",
+      "kind": "section",
+      "family": "content-structure",
+      "surfaces": ["web"],
+      "status": "available",
+      "reference": "../skills/component-builder/references/components/faq-section.md"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 **The component layer for AI agents.**
 
-Bricks gives agents the knowledge and workflow to select, build, adapt, and validate interface components.
+Bricks gives agents the knowledge and workflow to select, build, integrate, and validate new interface components.
 
 This repository does not ship a fixed visual system. The `component-builder` skill reads the target project's stack, design system, interface context, and existing components before it creates or changes code.
 
@@ -16,14 +16,14 @@ Until the public repository exists, install from a local checkout with the mecha
 
 ## Use
 
-Ask the agent to build or improve a component:
+Ask the agent to build a component:
 
 ```text
 Use component-builder to build the footer for this product site.
 Preserve the existing design system and implementation conventions.
 ```
 
-The same entry point handles ordinary components. A component receives a separate skill only when it develops a genuinely independent workflow.
+The same entry point handles ordinary new components. Auditing and reconstructing existing components are outside the first-release scope. A component receives a separate skill only when it develops a genuinely independent workflow.
 
 ## Repository Model
 

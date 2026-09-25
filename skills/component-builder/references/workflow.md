@@ -1,6 +1,6 @@
 # Construction Workflow
 
-Use this workflow for new components and substantial reconstructions. Scale the depth to the component's risk and complexity.
+Use this workflow for new components. Scale the depth to the component's risk and complexity.
 
 ## 1. Establish Context
 
