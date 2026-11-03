@@ -1,0 +1,4 @@
+interface:
+  display_name: "Component Cleanup"
+  short_description: "Remove verified unused components and migration leftovers."
+  default_prompt: "Use $component-cleanup for this project and preserve its existing decisions and source ownership."

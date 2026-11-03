@@ -45,7 +45,7 @@ Find the component ID in [../../catalog/components.json](../../catalog/component
 - Established independent terminology and discovery intent may justify separate entries that share a model, as with Grid, List, and Masonry.
 - A component reference is guidance, not a fixed code template.
 - Bounded composition patterns may coordinate catalog components. Complete page construction belongs to Pagina; whole-site information architecture and product planning remain outside both component construction and this skill.
-- Stop and report the scope mismatch when the named component already exists and the request is primarily an audit, optimization, or reconstruction.
+- For existing-component audit or reconstruction, use component-auditor if available; for project discovery use component-inventory, and for unused components use component-cleanup. If unavailable, report the appropriate workflow instead of treating this construction skill as an audit tool.
 - Do not add dependencies without a concrete implementation benefit.
 - Do not claim compliance, performance, or conversion outcomes that were not tested.
 - Use proven domain libraries when the component depends on complex editors, tables, charts, calendars, accessibility primitives, or agent runtimes.

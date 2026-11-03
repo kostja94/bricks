@@ -1,0 +1,4 @@
+interface:
+  display_name: "Component Inventory"
+  short_description: "Map page consumers and maintain component system documents."
+  default_prompt: "Use $component-inventory for this project and preserve its existing decisions and source ownership."

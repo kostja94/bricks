@@ -2,7 +2,7 @@
 
 [Pagina](https://github.com/kostja94/pagina) provides page intelligence for AI agents. Use it when the requested outcome is a complete new page with a page-level purpose, information hierarchy, multiple visible sections, component composition, route integration, and page verification.
 
-Bricks remains responsible for constructing a missing component or bounded interface object. Pagina recommends stable Bricks component IDs from its page catalog and publishes a generated reverse component-to-page map. Bricks does not duplicate those mappings.
+Bricks remains responsible for constructing a missing component or bounded interface object. Pagina recommends stable Bricks component IDs from its page catalog and publishes a generated reverse component-to-page map. Bricks does not duplicate those generic recommendation mappings. Actual source-derived component-to-page relationships are different: component-inventory saves them in the target project component system document. Existing-component audits and cleanup stay in Bricks governance workflows, not Pagina.
 
 Route the task to Pagina when:
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Component Auditor"
+  short_description: "Audit component semantics and migrate confirmed shared designs."
+  default_prompt: "Use $component-auditor for this project and preserve its existing decisions and source ownership."
