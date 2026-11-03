@@ -16,6 +16,8 @@ For every semantic family record:
 
 Names and similar markup are clues. A wrapper may be a legitimate adapter, and similar cards may have different discovery or action responsibilities. Do not preselect canonical names or variant counts before analysis.
 
+After establishing responsibility, use [recognizable component naming](../../component-builder/references/component-naming.md) for canonical-name proposals and any authorized renames.
+
 If project rules, recorded decisions or implementation evidence conflict, record the competing positions and their source/version. Preserve the conflicting implementations and seek resolution for that family rather than silently selecting one; continue unaffected analysis or authorized work.
 
 ## Decide module necessity separately

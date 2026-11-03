@@ -12,6 +12,8 @@ If missing information changes component responsibility or data behavior, ask on
 
 Write down the component's responsibility, inputs, outputs, states, and exclusions. Keep page-level responsibilities outside the component.
 
+Choose a recognizable functional name using [component naming](component-naming.md); reuse an existing owner when the responsibility already exists.
+
 Expected states may include default, hover, focus, active, disabled, loading, empty, error, success, expanded, collapsed, and permission-restricted. Include only states that the real workflow can enter.
 
 ## 3. Select A Variant

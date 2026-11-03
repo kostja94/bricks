@@ -14,6 +14,8 @@ Trace each entry through static/dynamic imports, aliases, re-exports, shared pac
 
 Separate display components, adapters, page compositions and primitives. Read real content records to explain titles, items, media, links and conditional branches. A reachable media component does not mean every page renders it. Identify components by file plus symbol or inline location, not name alone.
 
+Apply [recognizable component naming](../../component-builder/references/component-naming.md) when describing responsibilities and flagging unclear names. Preserve actual symbols in the inventory; proposed names are not implemented renames.
+
 ## Save the project document
 
 Generate or refresh a component system document before handing off to duplicate analysis. Preserve its existing location; otherwise suggest `docs/component-system.md`. Use the bundled template, adapting sections to actual project needs. Keep source content in its established JSON/TS/Markdown/CMS owner, not copied into the report.
