@@ -11,6 +11,6 @@ Read [the audit and migration workflow](references/workflow.md). Use a current p
 
 Choose the requested mode: `audit-only`, `align-and-implement`, or `implement-confirmed`. When the user wants discussion one component at a time, present evidence and proposed contract for that family before implementing undecided changes. Previously authorized decisions need no repeated approval.
 
-Reuse project primitives and component contracts. Semantic responsibility, actual content and consumers determine consolidation, not naming or visual similarity. Keep content edits separate from behavior-equivalent migration unless authorized.
+Reuse project primitives and component contracts. Semantic responsibility, actual content and consumers determine consolidation, not naming or visual similarity. Keep content edits separate from behavior-equivalent migration. For host-specific copy in a stable shared component, use Pagina’s [page-content-adapter](https://github.com/kostja94/pagina/tree/main/skills/page-content-adapter).
 
 Update the existing component system document with decisions, consumer migrations, remaining gaps, and validation. Publishing, pushing, and merging remain separate actions requiring task authorization.
